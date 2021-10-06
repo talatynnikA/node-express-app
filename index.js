@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended: true}))
 async function start() {
     try{
 
-     await mongoose.connect('mongodb+srv://Admin:1qaz2wsx@cluster0.pz98y.mongodb.net/todos',{
+     await mongoose.connect('mongodb+srv://user_example:password_example@cluster0.pz98y.mongodb.net/todos',{
 
      } )
 
